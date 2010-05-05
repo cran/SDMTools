@@ -1,12 +1,10 @@
 write.asc <-
-function (x, file) {
+function (x, file, gz=FALSE) {
   #confirm asc object and file named appropriately
-  if (!inherits(x, "asc")) {stop("Non convenient data")}
-  if (substr(file, nchar(file) - 3, nchar(file)) != ".asc") {file <- paste(file, ".asc", sep = "")}
-  #create the file  
-  file.create(file)
+  if (!inherits(x, "asc")) stop("Non convenient data")
+  if (substr(file, nchar(file) - 3, nchar(file)) != ".asc") file <- paste(file, ".asc", sep = "")
   #open a connection to file
-  zz <- file(file, "w")
+  if (gz) { zz <- gzfile(paste(file, ".gz", sep = ""),"w") } else { zz <- file(file, "w") }
     #write the header info
     cat("ncols         ",nrow(x),'\n',sep = "",file=zz)
     cat("nrows         ",ncol(x),'\n',sep = "",file=zz)
@@ -23,3 +21,7 @@ function (x, file) {
   close(zz)
 }
 
+write.asc.gz <-
+function (x, file) {
+	write.asc(x, file, gz=TRUE)
+}
