@@ -1,3 +1,2 @@
-exportPattern("^([^.]|\\..+\\.)")
+exportPattern("^[^\\.]")
 useDynLib(SDMTools)
-.onLoad(adehabitat)
