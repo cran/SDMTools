@@ -1,4 +1,4 @@
-e84e331a9d8f4ae0a3e9d34d0e809c80 *DESCRIPTION
+dbf0a43316f33d4f01af353bad288833 *DESCRIPTION
 67c783af8c438493c85cec83880eb76d *NAMESPACE
 12b148b9adf608614487010b5d0a060f *R/COGravity.R
 16e75722564729ddbecece46b3b50e8d *R/ClassStat.R
@@ -11,14 +11,14 @@ f0f7e5546583a04f461e6fe5589c2a75 *R/PatchStat.R
 c71822f711de02f3f0e2ce4406c9282d *R/SigDiff.R
 9eea22baeb11b8767304789064a07302 *R/ZonalStat.R
 1ca9bc6c9fe42f2af5891d60a51b630b *R/accuracy.R
-a4bc3205ea3ae82eb05978b6d9db7c1f *R/asc.from.raster.R
+accf785aada38f51ad8be0fbdaada38f *R/asc.from.raster.R
 055033e46cffcdab744eca31a0a282ed *R/asc2dataframe.R
 22cb3a28484cf08565f81a483f922eb9 *R/aspect.R
 5f12a3d18395156a12c6a50ff46011d6 *R/auc.R
 b8f0413883701d1ab42f888c1dfd9fcb *R/circular.averaging.R
-455e7556da3a43e364cceadec99bae5a *R/compare.matrix.R
+13216d9f98323104b4b199db18d24048 *R/compare.matrix.R
 d3b7c78f413e31a740d21bb66445c156 *R/confusion.matrix.R
-f14a31520cb45627bbc84d91f1e44bed *R/dataframe2asc.R
+752f80f0bde023432771ce3d3bab0270 *R/dataframe2asc.R
 6c516880a9e7ddd7ba115d2e4260f343 *R/destination.R
 51dd271090c7ed0b533a4f9d4cb2398e *R/distance.R
 4a20af18a3946b878dfd9d2d0bdbc54e *R/extract.data.R
