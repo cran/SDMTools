@@ -1,7 +1,8 @@
-dbf0a43316f33d4f01af353bad288833 *DESCRIPTION
+cab84cc6cf32ff1eaad3611124774d43 *ChangeLog
+e7c117c04e5952cb849dd71a61f67df6 *DESCRIPTION
 67c783af8c438493c85cec83880eb76d *NAMESPACE
 12b148b9adf608614487010b5d0a060f *R/COGravity.R
-16e75722564729ddbecece46b3b50e8d *R/ClassStat.R
+6d234421572322f2455c44ee7a4ffe11 *R/ClassStat.R
 4c1b0ac1d47ca510b23e6b395737fec7 *R/ConnCompLabel.R
 3fa5e1084a9d2d41be68ba088c257a08 *R/ImageDiff.R
 62b6573913067aa26735cd9574a09ee7 *R/Istat.R
@@ -40,6 +41,7 @@ b1c5d46e4add394cbe6c9ff204939df5 *R/slope.R
 e55e939cb2e3b8bb049e9a237f4c1bc2 *R/vector.averaging.R
 183657e5527924a316ea99d56331dbf9 *R/write.asc.R
 6ef2f9496557a328842f8b96dad7f96e *R/wt.mean.R
+da0152885469ec3daa3edc50f114b6ce *R/zzz.R
 996ef258f216c7a9e955fbfb6dc19a04 *man/COGravity.Rd
 4717e602eaec0efac968b1caafc794a7 *man/ClassStat.Rd
 e72ac82798c1bfa5a18044a1fd4fdbc6 *man/ConnCompLabel.Rd
