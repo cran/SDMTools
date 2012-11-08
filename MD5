@@ -1,5 +1,5 @@
-cab84cc6cf32ff1eaad3611124774d43 *ChangeLog
-e7c117c04e5952cb849dd71a61f67df6 *DESCRIPTION
+999ae0d2d101a98899c8f9c7ab56edb0 *ChangeLog
+b855742b3a4f2dedbfdd48e53ee76de0 *DESCRIPTION
 67c783af8c438493c85cec83880eb76d *NAMESPACE
 12b148b9adf608614487010b5d0a060f *R/COGravity.R
 6d234421572322f2455c44ee7a4ffe11 *R/ClassStat.R
@@ -79,5 +79,5 @@ a93df245561e5294bf37d8aa081350ca *src/getmin.c
 0416fe504263672b549c2beee3239178 *src/movewindow.c
 2ca3871d649dfe47c66c4df4a0cd3690 *src/patchstats.c
 17a56aa113dd35ff38e367019edfbc4e *src/pointinpolygon.c
-2519abad86c184505fd454835c0de373 *src/slope.aspect.c
+1692bce5a59569026bfdce65d6e597c4 *src/slope.aspect.c
 0f2bbd510f57740aa3295be0477cdaef *src/vincenty.geodesics.c
