@@ -1,11 +1,11 @@
 a39560ee1485e0083990dd2e29a4f72d *ChangeLog
-d5c0dfc59c6553c2f8bc0128cf63417d *DESCRIPTION
+e8a09e26035751defc0d27bdce400d36 *DESCRIPTION
 6e61905c7e1cd49c908ca484e1485e48 *NAMESPACE
 b1f582aa2380b1c85addaae14efa0c75 *R/COGravity.R
 5d299194edd4480bb44be542efd5ab33 *R/ClassStat.R
 e06c7ed6e6ab5ee9c765dbb3b81e6169 *R/ConnCompLabel.R
-60c47b1887118082acd69d007112bc11 *R/Istat.R
-64674ef7fcc7060d4659796a2f9dfa13 *R/Kappa.R
+c8c3e92310b84d0563bd7c851a1a4eb0 *R/Istat.R
+1d00d0da150e98516e2a02d985272968 *R/Kappa.R
 7083c850850128322b234c98fe29a771 *R/PatchStat.R
 1be9346444dd984c034b0a1629ad60ae *R/Scalebar.R
 80bdd2f3eaa59bc89e5cccd5a7e70404 *R/SigDiff.R
@@ -13,7 +13,7 @@ eb5d869875d26106ecf3ae19faae3b11 *R/ZonalStat.R
 1e59870d2f7abeca9f1009a591cb2c95 *R/accuracy.R
 61737f0a95d89bc6cc0e03e1fa247c1b *R/asc.from.raster.R
 33505e47e6459a499705e1a9d46dd376 *R/asc2dataframe.R
-e1ad76f03dd404cdac5e33ce399c309f *R/auc.R
+f057bf7ad8c10aab9bb2c2c10f460dbb *R/auc.R
 8cf79c68d521cd512e7fbcc60e7aa1bf *R/circular.averaging.R
 c9cb75eeb3846f76fd90c2e35693be4b *R/compare.matrix.R
 8ab8f6fe7f6394e4a6933dbb13df8a62 *R/confusion.matrix.R
@@ -36,7 +36,7 @@ d9f7a67e1274cc2ebda2c0b4501cf26f *R/read.asc.R
 b0d6b662f0dd6958525b4bba48b7dce2 *man/COGravity.Rd
 96c696706dc1a88a952164786ecb86ae *man/ClassStat.Rd
 d35bc33579bd850983e18d08dedb48d4 *man/ConnCompLabel.Rd
-81fd469e2e19135ba83742de3495d671 *man/Istat.Rd
+58051d164b03df0788991bbeb6c76801 *man/Istat.Rd
 7c4d801e89f492b86367b5ac17188685 *man/Kappa.Rd
 1a66bc896940085918db8fcc50092bbb *man/PatchStat.Rd
 f75ba7a33e797360f15d38adc3e54b41 *man/Scalebar.Rd
