@@ -63,3 +63,9 @@ useDynLib(SDMTools,movewindow)
 useDynLib(SDMTools,pip)
 useDynLib(SDMTools,projectedPS)
 useDynLib(SDMTools,writeascdata)
+
+importFrom("grDevices", "gray", "heat.colors", "rainbow",
+           "terrain.colors")
+importFrom("graphics", "contour", "image", "polygon", "rect",
+           "segments", "text")
+importFrom("stats", "aggregate", "na.omit", "pnorm", "quantile", "sd")

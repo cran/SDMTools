@@ -47,7 +47,7 @@ SEXP Dest(SEXP latitude1, SEXP longitude1, SEXP bearing, SEXP distance) {
 	cos2SigmaM = cos(2*sigma1 + sigma);
 	sinSigma = sin(sigma);
 	cosSigma = cos(sigma);
-	while (abs(sigma-sigmaP) > 1e-12) {
+	while (fabs(sigma-sigmaP) > 1e-12) {
 		cos2SigmaM = cos(2*sigma1 + sigma);
 		sinSigma = sin(sigma);
 		cosSigma = cos(sigma);
@@ -123,7 +123,7 @@ SEXP Dist(SEXP latitude1, SEXP longitude1, SEXP latitude2, SEXP longitude2) {
 				C = f/16*cosSqAlpha*(4+f*(4-3*cosSqAlpha));
 				lambdaP = lambda;
 				lambda = L + (1-C) * f * sinAlpha * (sigma + C*sinSigma*(cos2SigmaM+C*cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)));
-			} while (abs(lambda-lambdaP) > 1e-12 && --iterLimit>0);
+			} while (fabs(lambda-lambdaP) > 1e-12 && --iterLimit>0);
 
 			double uSq = cosSqAlpha * (a*a - b*b) / (b*b);
 			double A = 1 + uSq/16384*(4096+uSq*(-768+uSq*(320-175*uSq)));
