@@ -12,7 +12,6 @@ Chang, F., C.-J. Chen, and C.-J. Lu. 2004. A linear-time component-labeling algo
 static int SearchDirection[8][2] = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
 int nrow, ncol;
 int *out, *data; 
-SEXP ans;
 
 /* 
 tdata is a matrix of binary data 0 for background and 1 for foreground
@@ -80,6 +79,7 @@ SEXP ccl(SEXP tdata)
     nrow = dims[0]; ncol = dims[1]; //assign the number of rows and columns in the matrix
 	
 	//setup the output matrix
+        SEXP ans;
 	PROTECT(ans = allocMatrix(INTSXP, nrow, ncol));
 	out = INTEGER(ans); //pointer to output dataset
 	

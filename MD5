@@ -1,5 +1,5 @@
 a39560ee1485e0083990dd2e29a4f72d *ChangeLog
-d5b35180e79f04ee34fefcdf7ae8f81f *DESCRIPTION
+ee6ad6529ba3092e65fefd317ccf7020 *DESCRIPTION
 3907c54a771052a82cd26848d732c3c0 *NAMESPACE
 b1f582aa2380b1c85addaae14efa0c75 *R/COGravity.R
 5d299194edd4480bb44be542efd5ab33 *R/ClassStat.R
@@ -65,10 +65,10 @@ d71a9ad5aac9faba7150d6f9afd4a8e6 *man/put.data.Rd
 9380070e095f404b74dc6ef908e11b24 *man/read.asc.Rd
 4fe184a664c296766b9dfa6940730e63 *man/slope.Rd
 29b2bf9f2e23586019a4283441930e97 *man/wt.mean.Rd
-8290ec78be71cdce177124a4e0ae3581 *src/ConnectedComponentLabelling.c
+a7dbf5e59b68bc6f002ed522bf395181 *src/ConnectedComponentLabelling.c
 a93df245561e5294bf37d8aa081350ca *src/getmin.c
 0416fe504263672b549c2beee3239178 *src/movewindow.c
-2ca3871d649dfe47c66c4df4a0cd3690 *src/patchstats.c
+4527a82922544d82f1cf4674e9409c2f *src/patchstats.c
 a1156b84c75e65b51d9078ff9ce7bd3d *src/pointinpolygon.c
 1650a635fa9d491b6c629cfabee223b4 *src/slope.aspect.c
 ec2ee44820fc39eea10a40b46b3b8c06 *src/vincenty.geodesics.c

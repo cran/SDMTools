@@ -5,9 +5,8 @@ this is code to calculate patch-based landscape statistics
 #include <Rinternals.h>
 
 //global variables
-int nrow, ncol;
-int *data; 
-SEXP ans;
+extern int nrow, ncol;
+extern int *data; 
 
 /* 
 tdata is a matrix of data with patches uniquely numbered
@@ -81,6 +80,7 @@ SEXP projectedPS(SEXP tdata, SEXP IDs)
 		}
 	}
 	//setup the output matrix
+	SEXP ans;
 	PROTECT(ans = allocMatrix(INTSXP, npatch, 5)); int *out = INTEGER(ans); //pointer to output dataset
 	for (row=0; row<npatch; row++)	{
 		out[row] = ID[row];
@@ -170,6 +170,7 @@ SEXP geographicPS(SEXP tdata, SEXP IDs, SEXP AREAS, SEXP TOPS, SEXP BOTTOMS, SEX
 		}
 	}
 	//setup the output matrix
+	SEXP ans;
 	PROTECT(ans = allocMatrix(REALSXP, npatch, 8)); double *out = REAL(ans); //pointer to output dataset
 	for (row=0; row<npatch; row++)	{
 		out[row] = ID[row];
